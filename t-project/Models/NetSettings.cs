@@ -20,7 +20,7 @@ namespace t_project.Models
         public string BaseGate { get; set; }
 
         [Column("dns_servers")]
-        public string DnsServers { get; set; }
+        public string DnsServers { get; set; }             
 
         // Явно указываем имя столбца для внешнего ключа
         [Column("id")] // Должно совпадать с именем в БД
