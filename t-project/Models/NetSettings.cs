@@ -13,7 +13,7 @@ namespace t_project.Models
         [Column("ip_adress")]
         public string IpAddress { get; set; }
 
-        [Column("mask")]
+        [Column("mask")] 
         public int Mask { get; set; }
 
         [Column("base_gate")]
