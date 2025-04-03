@@ -22,7 +22,7 @@ namespace t_project.Models
         public DateTime ComeDate { get; set; }
 
         [Column("picture")]
-        public byte[] Image { get; set; }
+        public byte[] Image { get; set; }  
 
         [Column("material_number")]
         [Range(0, int.MaxValue)]
