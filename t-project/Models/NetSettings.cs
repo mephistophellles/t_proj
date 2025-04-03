@@ -15,7 +15,7 @@ namespace t_project.Models
 
         [Column("mask")] 
         public int Mask { get; set; }
-
+         
         [Column("base_gate")]
         public string BaseGate { get; set; }
 
