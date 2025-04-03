@@ -9,7 +9,7 @@ namespace t_project.Models
         [Key]
         [Column("id")]
         public int Id { get; set; }
-
+         
         [Column("ip_adress")]
         public string IpAddress { get; set; } 
 
