@@ -11,7 +11,7 @@ namespace t_project.Models
         public int Id { get; set; }
 
         [Column("ip_adress")]
-        public string IpAddress { get; set; }
+        public string IpAddress { get; set; } 
 
         [Column("mask")] 
         public int Mask { get; set; }
