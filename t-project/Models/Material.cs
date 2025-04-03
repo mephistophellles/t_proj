@@ -8,7 +8,7 @@ namespace t_project.Models
     public class Material
     {
         [Key]
-        [Column("id")]
+        [Column("id")] 
         public int Id { get; set; }
 
         [Column("material_name")]
