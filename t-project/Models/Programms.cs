@@ -16,4 +16,4 @@ namespace t_project.Models
         [Column("version_os")]
         public string VersionOS { get; set; }
     }
-}      
+}        
