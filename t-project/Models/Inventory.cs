@@ -15,4 +15,4 @@ namespace t_project.Models
         [Column("invent_name")]
         public string InventName { get; set; }
     }
-}
+}  
