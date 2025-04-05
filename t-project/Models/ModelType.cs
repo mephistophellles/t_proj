@@ -9,4 +9,4 @@ namespace t_project.Models
         public string NameModel { get; set; }
         public int IdType { get; set; }
     }
-}
+} 
